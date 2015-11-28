@@ -1,0 +1,10 @@
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmotivController.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmotivController.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\DotNetEmotivSDK.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmoCommon.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmoDataDTO.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmoCommon.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\bin\Debug\EmoDataDTO.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\obj\Debug\EmotivController.csprojResolveAssemblyReference.cache
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\obj\Debug\EmotivController.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivController\obj\Debug\EmotivController.pdb

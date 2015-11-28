@@ -1,0 +1,4 @@
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\bin\Debug\EmoCommon.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\bin\Debug\EmoCommon.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\obj\Debug\EmoCommon.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\obj\Debug\EmoCommon.pdb

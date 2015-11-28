@@ -1,0 +1,4 @@
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\EmoBot.csproj;x86
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\EmoCommon.csproj;neutral
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoCommon\EmoCommon.csproj;neutral
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\EmoDataDTO.csproj;neutral

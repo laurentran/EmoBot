@@ -1,0 +1,7 @@
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\bin\Debug\EmoDataDTO.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\bin\Debug\EmoDataDTO.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\bin\Debug\EmoCommon.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\bin\Debug\EmoCommon.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\obj\Debug\EmoDataDTO.csprojResolveAssemblyReference.cache
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\obj\Debug\EmoDataDTO.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoDataDTO\obj\Debug\EmoDataDTO.pdb
