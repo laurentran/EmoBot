@@ -46,9 +46,10 @@ namespace EmoBot
                     // Not the best way to parse this data.  JObject is from JSON.NET
                     // http://www.newtonsoft.com/json
                     var data = emo as JObject;
-                    Debug.WriteLine(String.Format("My new emotion is {0} ",
-                            Enum.Parse(typeof(EmotivEmotion),
-                            data.SelectToken("Emotion").ToString()).ToString())
+                    Debug.WriteLine(String.Format("My new emotion is {0} with magnitude {1} ",
+                        Enum.Parse(typeof(EmotivEmotion),
+                        data.SelectToken("Emotion").ToString()).ToString(),
+                        data.SelectToken("Magnitude").ToString()).ToString()
                         );
                 });
 

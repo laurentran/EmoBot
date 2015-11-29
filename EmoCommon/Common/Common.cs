@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Emo.Common
 {
-    public enum EmotivEmotion { ANGRY, HAPPY };
+    public enum EmotivEmotion { NEUTRAL, ANGRY, HAPPY };
     public static class Common
     {
     }

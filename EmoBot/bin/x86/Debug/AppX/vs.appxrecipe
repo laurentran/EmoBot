@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-28T22:16:59.394</Modified>
+      <Modified>2015-11-29T22:26:56.153</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoBot.exe">
       <PackagePath>EmoBot.exe</PackagePath>
-      <Modified>2015-11-28T22:16:59.391</Modified>
+      <Modified>2015-11-29T22:26:56.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoBot.xr.xml">
       <PackagePath>EmoBot.xr.xml</PackagePath>
@@ -78,15 +78,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoCommon.dll">
       <PackagePath>EmoCommon.dll</PackagePath>
-      <Modified>2015-11-28T22:10:18.990</Modified>
+      <Modified>2015-11-29T01:12:10.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoDataDTO.dll">
       <PackagePath>EmoDataDTO.dll</PackagePath>
-      <Modified>2015-11-28T22:10:19.400</Modified>
+      <Modified>2015-11-29T22:26:52.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\entrypoint\EmoBot.exe">
       <PackagePath>entrypoint\EmoBot.exe</PackagePath>
-      <Modified>2015-11-28T22:16:57.835</Modified>
+      <Modified>2015-11-29T22:26:55.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>

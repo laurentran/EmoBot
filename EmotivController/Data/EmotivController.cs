@@ -13,7 +13,7 @@ namespace EmotivController.Data
         public event EventHandler<EmotionChangedEventArgs> EmotionChanged = (s, e) => { };
      
         // This will represent the state of our emotiv
-        Emotiv _emotiv = new Emotiv();
+        EmotivDevice _emotiv = new EmotivDevice();
 
         // This is for testing.
         Random _rnd = new Random();
@@ -48,7 +48,7 @@ namespace EmotivController.Data
         // Raise an event when the emotion of the Emotiv changes.
         protected virtual void OnEmotionChanged( object sender, EmotionChangedEventArgs e)
         {
-            var source = sender as Emotiv;
+            var source = sender as EmotivDevice;
             if( sender == null )
             {
                 Debug.Assert(false);
@@ -61,7 +61,7 @@ namespace EmotivController.Data
             EmotionChanged.Raise(source, new EmotionChangedEventArgs() { Emotion = _emotiv.Emotion });
         }
 
-        private void ProcessEmotiveData(Emotiv dataSource)
+        private void ProcessEmotiveData(EmotivDevice dataSource)
         {
             //TODO: add any data processing here.
             // Not necessary for now.

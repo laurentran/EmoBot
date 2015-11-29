@@ -10,5 +10,6 @@ namespace Emo.Data.DTO
     public interface IEmotiv
     {
         EmotivEmotion Emotion { get; set; }
+        double Magnitude { get; set; }
     }
 }

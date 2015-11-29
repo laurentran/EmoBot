@@ -37,3 +37,4 @@ C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivBridge\bin\New
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivBridge\obj\Debug\EmotivBridge.csprojResolveAssemblyReference.cache
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivBridge\obj\Debug\EmotivBridge.dll
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivBridge\obj\Debug\EmotivBridge.pdb
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmotivBridge\bin\DotNetEmotivSDK.dll
