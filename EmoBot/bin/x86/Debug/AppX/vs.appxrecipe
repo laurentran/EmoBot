@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>fa9f97f8-f13a-42eb-b112-80a8f04d045b</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>BECB532402202E948324835706F7410F7DD6A6F23EF8C68D8790F71201A27436</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>49183F9E68B0E65BE2FC02940C9D569AEF48F6DD32ABAC01414D147A9337252E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fa9f97f8-f13a-42eb-b112-80a8f04d045b_1.0.0.0_x86__19pxx4nn1phr4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fa9f97f8-f13a-42eb-b112-80a8f04d045b_19pxx4nn1phr4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fa9f97f8-f13a-42eb-b112-80a8f04d045b</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-29T22:26:56.153</Modified>
+      <Modified>2015-12-01T04:08:03.760</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,23 +70,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoBot.exe">
       <PackagePath>EmoBot.exe</PackagePath>
-      <Modified>2015-11-29T22:26:56.145</Modified>
+      <Modified>2015-12-01T04:08:03.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoBot.xr.xml">
       <PackagePath>EmoBot.xr.xml</PackagePath>
-      <Modified>2015-11-28T22:16:57.613</Modified>
+      <Modified>2015-11-30T21:43:39.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoCommon.dll">
       <PackagePath>EmoCommon.dll</PackagePath>
-      <Modified>2015-11-29T01:12:10.184</Modified>
+      <Modified>2015-11-30T21:28:53.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\EmoDataDTO.dll">
       <PackagePath>EmoDataDTO.dll</PackagePath>
-      <Modified>2015-11-29T22:26:52.313</Modified>
+      <Modified>2015-11-30T21:28:54.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\entrypoint\EmoBot.exe">
       <PackagePath>entrypoint\EmoBot.exe</PackagePath>
-      <Modified>2015-11-29T22:26:55.130</Modified>
+      <Modified>2015-12-01T04:08:03.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -126,7 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-28T22:16:58.780</Modified>
+      <Modified>2015-11-30T21:43:40.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\RobotKit.dll">
+      <PackagePath>RobotKit.dll</PackagePath>
+      <Modified>2015-11-10T21:00:50.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

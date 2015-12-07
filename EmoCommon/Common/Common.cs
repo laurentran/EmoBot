@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 namespace Emo.Common
 {
     public enum EmotivEmotion { NEUTRAL, ANGRY, HAPPY };
+
+    public enum SpheroColor { RED, GREEN, WHITE };
+
     public static class Common
     {
     }

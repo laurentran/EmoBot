@@ -17,6 +17,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using RobotKit;
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace EmoBot
@@ -26,6 +28,8 @@ namespace EmoBot
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private SpheroController _spheroController = new SpheroController();
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -51,6 +55,21 @@ namespace EmoBot
                         data.SelectToken("Emotion").ToString()).ToString(),
                         data.SelectToken("Magnitude").ToString()).ToString()
                         );
+
+                    // fix to use enum
+                    String currentEmotion = Enum.Parse(typeof(EmotivEmotion),data.SelectToken("Emotion").ToString()).ToString();
+                    if (currentEmotion == "ANGRY")
+                    {
+                        _spheroController.ChangeColor(SpheroColor.RED);
+                    } 
+                    else if(currentEmotion == "HAPPY")
+                    {
+                        _spheroController.ChangeColor(SpheroColor.GREEN);
+                    }
+                    else
+                    {
+                        _spheroController.ChangeColor(SpheroColor.WHITE);
+                    }
                 });
 
             // Start the controller and kick off the listening
@@ -59,9 +78,44 @@ namespace EmoBot
             await emotiveProxy.Invoke("InitializeController");
         }
 
+
+
         private void EmotivBridgeTestButton_Click(object sender, RoutedEventArgs e)
         {
             TestEmoConnection();
         }
+
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            _spheroController.Connect();
+        }
+
+        private void DisconnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            _spheroController.Disconnect();
+        }
+
+        private void AngryButton_Click(object sender, RoutedEventArgs e)
+        {
+            _spheroController.ChangeColor(SpheroColor.RED);
+        }
+
+        private void HappyButton_Click(object sender, RoutedEventArgs e)
+        {
+            _spheroController.ChangeColor(SpheroColor.GREEN);
+        }
+
+        private void Page_Unloaded(object sender, RoutedEventArgs e)
+        {
+            _spheroController.Disconnect();
+        }
+
+        //public void WireUpButtons()
+        //{
+        //    this.ConnectButton.Click += (s, e) => { _spheroController.Connect(); };
+        //    this.DisconnectButton.Click += (s, e) => { _spheroController.Disconnect(); };
+        //    this.AngryButton.Click += (s, e) => { _spheroController.ChangeColor(SpheroColor.RED); };
+        //    this.HappyButton.Click += (s, e) => { _spheroController.ChangeColor(SpheroColor.GREEN); };
+        //}
     }
 }

@@ -96,6 +96,9 @@
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\RobotKit.dll">
+      <PackagePath>RobotKit.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>

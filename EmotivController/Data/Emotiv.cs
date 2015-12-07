@@ -18,7 +18,7 @@ namespace EmotivController.Data
         private EmoEngine _engine; // Access to the EDK is viaa the EmoEngine 
         private int _userID = -1; // userID is used to uniquely identify a user's headset
         private const double TARGET_SMILE_VALUE = 0.1; //change 50
-        private const double TARGET_FROWN_VALUE = 0.1;
+        private const double TARGET_FROWN_VALUE = 0.2;
         private EmotivEmotion _emotion = EmotivEmotion.NEUTRAL;
 
 
@@ -41,29 +41,67 @@ namespace EmotivController.Data
             // emotiv state has changed
             _engine.EmoStateUpdated += (s, e) =>
             {
+                               
 
-                //var smileExtent = e.emoState.ExpressivGetSmileExtent();
                 var smileExtent = e.emoState.ExpressivGetLowerFaceActionPower();
                 var frownExtent = e.emoState.ExpressivGetUpperFaceActionPower();
-                //Magnitude = Convert.ToInt32(smileExtent);
-                //Magnitude = smileExtent;
-                if (smileExtent >= TARGET_SMILE_VALUE)
-                //if (e.emoState.ExpressivIsEyesOpen())
+                if (smileExtent > frownExtent)
                 {
-                    Magnitude = smileExtent;
-                    Emotion = EmotivEmotion.HAPPY;
+                    if (smileExtent >= TARGET_SMILE_VALUE)
+                    {
+                        Magnitude = smileExtent;
+                        Emotion = EmotivEmotion.HAPPY;
+                    }
+                    else if (frownExtent >= TARGET_FROWN_VALUE)
+                    {
+                        Magnitude = frownExtent;
+                        Emotion = EmotivEmotion.ANGRY;
+
+                    }
+                    else
+                    {
+                        Magnitude = 0;
+                        Emotion = EmotivEmotion.NEUTRAL;
+                    }
                 }
-                else if (frownExtent >= TARGET_FROWN_VALUE)
+                else if (smileExtent <= frownExtent)
                 {
-                    Magnitude = frownExtent;
-                    Emotion = EmotivEmotion.ANGRY;
+                    if (frownExtent >= TARGET_FROWN_VALUE)
+                    {
+                        Magnitude = frownExtent;
+                        Emotion = EmotivEmotion.ANGRY;
+
+                    }
+                    else if (smileExtent >= TARGET_SMILE_VALUE)
+                    {
+                        Magnitude = smileExtent;
+                        Emotion = EmotivEmotion.HAPPY;
+                    }
+                    
+                    else
+                    {
+                        Magnitude = 0;
+                        Emotion = EmotivEmotion.NEUTRAL;
+                    }
                 }
-                else //conside commenting out this block to leave emotion at happy/angry (so sphero stays lit)
-                {
-                    Magnitude = 0;
-                    Emotion = EmotivEmotion.NEUTRAL;
-                    //OnEmotionChanged(); //this is for testing only
-                }
+                //var smileExtent = e.emoState.ExpressivGetLowerFaceActionPower();
+                //var frownExtent = e.emoState.ExpressivGetUpperFaceActionPower();
+                //if (smileExtent >= TARGET_SMILE_VALUE)
+                //{
+                //        Magnitude = smileExtent;
+                //        Emotion = EmotivEmotion.HAPPY;
+                //}
+                //else if (frownExtent >= TARGET_FROWN_VALUE)
+                //{
+                //        Magnitude = frownExtent;
+                //        Emotion = EmotivEmotion.ANGRY;
+
+                //}
+                //else
+                //{
+                //        Magnitude = 0;
+                //        Emotion = EmotivEmotion.NEUTRAL;
+                //}
             };
 
 
@@ -112,7 +150,7 @@ namespace EmotivController.Data
                 {
                     _engine.ProcessEvents();
                 },
-                null, 0, 2000
+                null, 0, 1000
                 );
         }
 

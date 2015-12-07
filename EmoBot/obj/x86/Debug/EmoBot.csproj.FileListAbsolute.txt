@@ -454,3 +454,6 @@ C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug\Core\EmoBot.xr.xml
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug\Core\resources.pri
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\Core\RobotKit.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\bin\x86\Debug\RobotKit.dll
+C:\Users\latra\Documents\Visual Studio 2015\Projects\EmoBot\EmoBot\obj\x86\Debug\Core\RobotKit.dll
